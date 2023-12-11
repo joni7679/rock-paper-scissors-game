@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background:#95fff5;
+    color:#fff;
+    padding:2.5rem;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+   
+}
+.container
+{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.choices, .scroed-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    margin-top: 2rem;
+}
+
+.choice {
+width: 200px;
+height: 200px;
+}
+
+.choice img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.choice img:hover{
+    cursor: pointer;
+    border: 2px solid brown;
+    
+}
+
+p{
+    font-size: 2rem;
+}
+
+#comp ,#user{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: brown;
+}
+
+.btn{
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    margin-top: 2rem;
+    text-transform: capitalize;
+}
